@@ -1,3 +1,6 @@
 form{
-    align-content: center;
+    background-color: red;
+    position: absolute;
+    left: 40%;
+    top: 40%;
 }
