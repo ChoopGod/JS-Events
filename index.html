@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <div>
       <form>
         <label for="ko">Write cow:</label><br />
         <input type="text" id="cow" name="cow" /><br />
@@ -22,7 +23,15 @@
 
         <label for="elg">Write elk:</label><br />
         <input type="text" id="elk" name="elk" /><br />
-
+        <select name="AnimalSelector" id="selector">
+          <option value="Bird">Bird</option>
+          <option value="Fish">Fish</option>
+          <option value="Reptile">Reptile</option>
+          <option value="Insect">Insect</option>
+          <option value="Mammal">Mammal</option>
+        </select>
         <button type="button" id="evaluateForm">valider form</button>
+      </form>
+    </div>
   </body>
 </html>

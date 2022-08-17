@@ -1,6 +1,17 @@
-form{
+div{
     background-color: red;
     position: absolute;
-    left: 40%;
-    top: 40%;
+    left: 44%;
+    top: 38%;
+    border-radius: 30px;
+    padding: 13px;
+}
+input{
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+}
+select {
+    width: 100px;
 }
