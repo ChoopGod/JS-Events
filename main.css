@@ -1,4 +1,4 @@
-div{
+form{
     background-color: red;
     position: absolute;
     left: 44%;
@@ -14,4 +14,15 @@ button{
 }
 select {
     width: 100px;
+}
+.textdiv{
+    margin-top: 30%;
+    margin-right: 2%;
+    text-align: center;
+}
+h1{
+    margin-left: 3%;
+}
+p{
+    margin-left: 3%;
 }

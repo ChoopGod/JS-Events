@@ -50,6 +50,60 @@ function evaluateAll() {
         console.log("no elk!!!");
         elkInput.style.backgroundColor = "red";
     }
+         // selector and writing here
+         selector = document.querySelector('#selector').value
+        switch(selector) {
+        case "Bird":     
+            console.log('Bird');
+          break;
+        case "Fish":
+            console.log("Fish");
+          break;
+          case "Reptile":     
+            console.log("Reptile");
+         break;
+        case "Insect":
+            console.log("Insect");
+         break;
+        case "Mammal":
+            console.log("Mammal");
+        break;
+        default: console.log("Intet Valgt")
+      }
 }
 
 //functions--------------------------------------------------
+
+ // selector and writing here
+ selector = document.querySelector('#selector').value
+ switch(selector) {
+ case "Bird":     
+     console.log('Bird');
+     document.getElementById("h1").innerHTML = "Bird!";
+     document.getElementById("text").innerHTML = "You have chosen Bird!";
+   break;
+ case "Fish":
+     console.log("Fish");
+     document.getElementById("h1").innerHTML = "Fish!";
+     document.getElementById("text").innerHTML = "You have chosen Fish!";
+     console.log(getElementById("h1")).innerHTML
+     break;
+   case "Reptile":     
+     console.log("Reptile");
+     document.getElementById("h1").innerHTML = "Reptile!";
+     document.getElementById("text").innerHTML = "You have chosen Reptile!";
+  break;
+ case "Insect":
+     console.log("Insect");
+     document.getElementById("h1").innerHTML = "Insect!";
+     document.getElementById("text").innerHTML = "You have chosen Insect!";
+  break;
+ case "Mammal":
+     console.log("Mammal");
+     document.getElementById("h1").innerHTML = "Mammal!";
+     document.getElementById("text").innerHTML = "You have chosen Mammal!";
+ break;
+ default: console.log("Intet Valgt")
+ document.getElementById("h1").innerHTML = "No Animal Chosen!";
+ document.getElementById("text").innerHTML = "Please Choose An Animal!";
+}
